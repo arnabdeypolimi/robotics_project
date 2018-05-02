@@ -17,7 +17,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -99,9 +98,9 @@
       </collision>
     </link>
     <link name='20X20_1'>
-      <pose frame=''>0.361501 -0.936171 0.612477 -1e-06 1.5706 3e-06</pose>
+      <pose frame=''>0.361501 -0.936171 0.612477 -3e-06 1.5706 1e-06</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.091</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -114,6 +113,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -195,9 +195,9 @@
       </collision>
     </link>
     <link name='20X20_1_clone'>
-      <pose frame=''>0.803501 -0.936171 0.612523 -1e-05 1.5706 -2.1e-05</pose>
+      <pose frame=''>0.803501 -0.936171 0.612523 -9e-06 1.5706 -2e-05</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.091</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -210,6 +210,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -293,7 +294,7 @@
     <link name='20X20_2_clone'>
       <pose frame=''>0.582512 -1.51617 0.510001 0 -0.000104 0</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.228</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -306,6 +307,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -389,7 +391,7 @@
     <link name='20X20_2_clone_0'>
       <pose frame=''>0.582512 -0.936171 0.51 0 -0.000104 0</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.296</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -402,11 +404,12 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.462 0.02 0.02</size>
+            <size>0.6 0.02 0.02</size>
           </box>
         </geometry>
         <material>
@@ -432,7 +435,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.462 0.02 0.02</size>
+            <size>0.6 0.02 0.02</size>
           </box>
         </geometry>
         <surface>
@@ -483,9 +486,9 @@
       </collision>
     </link>
     <link name='20X20_3'>
-      <pose frame=''>0.361504 -1.51617 0.582477 0.000452 1.5706 -7e-06</pose>
+      <pose frame=''>0.361504 -1.51617 0.582477 0.000453 1.5706 -6e-06</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.062</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -498,6 +501,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -581,7 +585,7 @@
     <link name='20X20_3_clone'>
       <pose frame=''>0.803504 -1.51617 0.582523 6e-06 1.5706 6e-06</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.062</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -594,6 +598,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -677,7 +682,7 @@
     <link name='20X20_4_clone'>
       <pose frame=''>0.872491 -1.30917 0.51003 -0.000104 -0 1.5707</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.143</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -690,6 +695,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -773,7 +779,7 @@
     <link name='20X20_4_clone_clone'>
       <pose frame=''>0.291517 -1.30916 0.50997 0.000104 -0 -1.57109</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.143</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -786,6 +792,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -869,7 +876,7 @@
     <link name='20X20_5_clone'>
       <pose frame=''>0.387512 -1.22617 0.50998 -0.000104 -0 1.5707</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.277</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -882,6 +889,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -965,7 +973,7 @@
     <link name='20X20_5_clone_clone'>
       <pose frame=''>0.777512 -1.22617 0.51002 -0.000104 -0 1.5707</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.277</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -978,6 +986,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1061,7 +1070,7 @@
     <link name='20X20_7_clone'>
       <pose frame=''>0.824991 -1.44417 0.510025 0 -0.000104 0</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.037</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -1074,6 +1083,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1157,7 +1167,7 @@
     <link name='20X20_7_clone_clone'>
       <pose frame=''>0.825017 -1.1759 0.510025 0 0.000104 3.1414</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.037</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -1170,6 +1180,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1253,7 +1264,7 @@
     <link name='20X20_7_clone_clone_0'>
       <pose frame=''>0.339017 -1.17867 0.509975 0 0.000104 3.1414</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.037</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -1266,6 +1277,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1349,7 +1361,7 @@
     <link name='20X20_7_clone_clone_0_clone'>
       <pose frame=''>0.338991 -1.44416 0.509975 0 0.000104 3.1414</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.037</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -1362,6 +1374,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1445,7 +1458,7 @@
     <link name='20X20_8_clone'>
       <pose frame=''>0.424512 -1.32117 0.509984 -0.000104 -0 1.5707</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.183</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -1458,6 +1471,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1541,7 +1555,7 @@
     <link name='20X20_8_clone_0'>
       <pose frame=''>0.582512 -1.12617 0.51 0 -0.000104 0</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.183</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -1554,6 +1568,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1637,7 +1652,7 @@
     <link name='20X20_8_clone_clone'>
       <pose frame=''>0.740512 -1.32117 0.510016 -0.000104 -0 1.5707</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.183</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -1650,6 +1665,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1733,7 +1749,7 @@
     <link name='40X20_1_clone'>
       <pose frame=''>0.803488 -1.23617 0.665023 3.1413 9.6e-05 1.5708</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.518</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -1746,6 +1762,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1829,7 +1846,7 @@
     <link name='40X20_1_clone_0'>
       <pose frame=''>0.361488 -1.23617 0.664894 3.1413 9.6e-05 1.5708</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.518</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -1842,6 +1859,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1925,7 +1943,7 @@
     <link name='40X20_2_clone'>
       <pose frame=''>0.582488 -1.33017 0.664967 3.1415 -0.000402 9.6e-05</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.377</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -1938,6 +1956,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -2021,7 +2040,7 @@
     <link name='40X20_3_clone'>
       <pose frame=''>0.582462 -1.5162 0.725016 8.1e-05 7.8e-05 3.1414</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.5</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -2034,6 +2053,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -2117,7 +2137,7 @@
     <link name='40X20_3_clone_clone'>
       <pose frame=''>0.582467 -1.33017 0.724967 9.6e-05 0.000305 -3.1414</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.5</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -2130,6 +2150,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -2213,7 +2234,7 @@
     <link name='40X20_3_clone_clone_clone'>
       <pose frame=''>0.58249 -0.936171 0.725 0 -0.000104 0</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.5</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -2226,6 +2247,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -2307,9 +2329,9 @@
       </collision>
     </link>
     <link name='40X20_4'>
-      <pose frame=''>0.582476 -1.33017 0.694967 0.305994 -1.57048 2.83569</pose>
+      <pose frame=''>0.582476 -1.33017 0.694967 0.306057 -1.57048 2.83562</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.018</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -2322,6 +2344,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -2405,7 +2428,7 @@
     <link name='40X20_5_clone'>
       <pose frame=''>0.776429 -1.13263 0.725007 0.000305 -9.6e-05 -1.5707</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.336</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -2418,6 +2441,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -2501,7 +2525,7 @@
     <link name='40X20_5_clone_0'>
       <pose frame=''>0.388428 -1.12621 0.724888 0.000305 -9.6e-05 -1.5707</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.336</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -2514,6 +2538,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -2597,7 +2622,7 @@
     <link name='40X20_6_clone'>
       <pose frame=''>0.872489 -1.22617 0.725036 0.000305 -9.6e-05 -1.5707</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.536</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -2610,6 +2635,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -2693,7 +2719,7 @@
     <link name='40X20_6_clone_clone'>
       <pose frame=''>0.29249 -1.22617 0.72497 -7.8e-05 8.1e-05 1.5707</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.536</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -2706,6 +2732,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -2789,7 +2816,7 @@
     <link name='40X20_7_clone_0'>
       <pose frame=''>0.292473 -1.28817 0.664878 -3.1413 -9.6e-05 -1.5706</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.259</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -2802,6 +2829,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -2885,7 +2913,7 @@
     <link name='40X20_7_clone_0_clone'>
       <pose frame=''>0.872473 -1.28817 0.665052 -3.14119 -9.6e-05 -1.5706</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.259</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -2898,6 +2926,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -2981,7 +3010,7 @@
     <link name='40X20_8_clone'>
       <pose frame=''>0.837943 -1.13317 0.665023 3.14103 0.000402 -3.1413</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.044</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -2994,6 +3023,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -3077,7 +3107,7 @@
     <link name='40X20_8_clone_0'>
       <pose frame=''>0.837988 -1.44317 0.665053 3.1415 -0.000402 9.6e-05</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.044</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -3090,6 +3120,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -3173,7 +3204,7 @@
     <link name='40X20_8_clone_clone'>
       <pose frame=''>0.326943 -1.13317 0.664873 -3.1415 0.000293 -3.1413</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.044</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -3186,6 +3217,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -3269,7 +3301,7 @@
     <link name='40X20_8_clone_clone_0'>
       <pose frame=''>0.326988 -1.44317 0.664903 3.1415 -0.000293 9.6e-05</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.044</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -3282,6 +3314,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -3365,7 +3398,7 @@
     <link name='40X20_9_clone'>
       <pose frame=''>0.316988 -0.95617 0.664854 3.1415 -0.000293 9.6e-05</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.062</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -3378,6 +3411,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -3461,7 +3495,7 @@
     <link name='40X20_9_clone_0'>
       <pose frame=''>0.847988 -0.95617 0.665009 3.1405 -0.000293 9.6e-05</pose>
       <inertial>
-        <mass>1</mass>
+        <mass>0.062</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
@@ -3474,6 +3508,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -3939,7 +3974,7 @@
       </collision>
     </link>
     <link name='left_caster_wheel'>
-      <pose frame=''>0.833012 -1.49967 0.505001 6.8e-05 1.5707 6.8e-05</pose>
+      <pose frame=''>0.833012 -1.49967 0.505001 6.3e-05 1.5707 6.3e-05</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -4037,7 +4072,7 @@
       </collision>
     </link>
     <link name='left_green_plate'>
-      <pose frame=''>0.7845 -1.04767 0.62 5.4e-05 1.5707 5.4e-05</pose>
+      <pose frame=''>0.7845 -1.04767 0.62 5e-05 1.5707 5e-05</pose>
       <inertial>
         <mass>1.14663</mass>
         <inertia>
@@ -4133,7 +4168,7 @@
       </collision>
     </link>
     <link name='left_grey_plate'>
-      <pose frame=''>0.784505 -1.34467 0.57 5.4e-05 1.5707 5.4e-05</pose>
+      <pose frame=''>0.784505 -1.34467 0.57 5e-05 1.5707 5e-05</pose>
       <inertial>
         <mass>1.14663</mass>
         <inertia>
@@ -4229,7 +4264,7 @@
       </collision>
     </link>
     <link name='left_motor'>
-      <pose frame=''>0.697508 -0.97167 0.532992 5.4e-05 1.5707 5.4e-05</pose>
+      <pose frame=''>0.697508 -0.97167 0.532992 5e-05 1.5707 5e-05</pose>
       <inertial>
         <mass>0.796161</mass>
         <inertia>
@@ -4327,7 +4362,7 @@
       </collision>
     </link>
     <link name='left_wheel'>
-      <pose frame=''>0.833012 -1.04017 0.584 5.4e-05 1.5707 5.4e-05</pose>
+      <pose frame=''>0.833012 -1.04017 0.584 5e-05 1.5707 5e-05</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -4438,7 +4473,6 @@
         </inertia>
         <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
-      <gravity>1</gravity>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
       <visual name='visual'>
@@ -4524,7 +4558,7 @@
       </collision>
     </link>
     <link name='right_caster_wheel'>
-      <pose frame=''>0.332012 -1.49967 0.505001 6.8e-05 1.5707 6.8e-05</pose>
+      <pose frame=''>0.332012 -1.49967 0.505001 6.3e-05 1.5707 6.3e-05</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -4622,7 +4656,7 @@
       </collision>
     </link>
     <link name='right_green_plate'>
-      <pose frame=''>0.380524 -1.04767 0.620001 5.4e-05 1.5707 5.4e-05</pose>
+      <pose frame=''>0.380524 -1.04767 0.620001 5e-05 1.5707 5e-05</pose>
       <inertial>
         <mass>1.14663</mass>
         <inertia>
@@ -4718,7 +4752,7 @@
       </collision>
     </link>
     <link name='right_motor'>
-      <pose frame=''>0.467532 -0.97167 0.533008 5.4e-05 1.5707 5.4e-05</pose>
+      <pose frame=''>0.467532 -0.97167 0.533008 5e-05 1.5707 5e-05</pose>
       <inertial>
         <mass>0.796161</mass>
         <inertia>
@@ -4816,7 +4850,7 @@
       </collision>
     </link>
     <link name='right_wheel'>
-      <pose frame=''>0.332012 -1.04017 0.584 5.4e-05 1.5707 5.4e-05</pose>
+      <pose frame=''>0.332012 -1.04017 0.584 5e-05 1.5707 5e-05</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
