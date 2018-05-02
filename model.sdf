@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='robotics_project_0'>
+  <model name='robotics_project'>
     <link name='base_plate_main'>
       <pose frame=''>0.582512 -1.20167 0.500001 0 -0 0</pose>
       <inertial>
@@ -17,6 +17,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -98,7 +99,7 @@
       </collision>
     </link>
     <link name='20X20_1'>
-      <pose frame=''>0.361501 -0.936171 0.612477 -3e-06 1.5706 1e-06</pose>
+      <pose frame=''>0.361501 -0.936171 0.612477 -1e-06 1.5706 3e-06</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -194,7 +195,7 @@
       </collision>
     </link>
     <link name='20X20_1_clone'>
-      <pose frame=''>0.803501 -0.936171 0.612523 -1.2e-05 1.5706 -2.3e-05</pose>
+      <pose frame=''>0.803501 -0.936171 0.612523 -1e-05 1.5706 -2.1e-05</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -482,7 +483,7 @@
       </collision>
     </link>
     <link name='20X20_3'>
-      <pose frame=''>0.361504 -1.51617 0.582477 0.00045 1.5706 -9e-06</pose>
+      <pose frame=''>0.361504 -1.51617 0.582477 0.000452 1.5706 -7e-06</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -578,7 +579,7 @@
       </collision>
     </link>
     <link name='20X20_3_clone'>
-      <pose frame=''>0.803504 -1.51617 0.582523 2e-06 1.5706 2e-06</pose>
+      <pose frame=''>0.803504 -1.51617 0.582523 6e-06 1.5706 6e-06</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -2306,7 +2307,7 @@
       </collision>
     </link>
     <link name='40X20_4'>
-      <pose frame=''>0.582476 -1.33017 0.694967 0.305958 -1.57048 2.83573</pose>
+      <pose frame=''>0.582476 -1.33017 0.694967 0.305994 -1.57048 2.83569</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -3938,7 +3939,7 @@
       </collision>
     </link>
     <link name='left_caster_wheel'>
-      <pose frame=''>0.833012 -1.49967 0.505001 6.3e-05 1.5707 6.3e-05</pose>
+      <pose frame=''>0.833012 -1.49967 0.505001 6.8e-05 1.5707 6.8e-05</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -3953,7 +3954,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -4037,7 +4037,7 @@
       </collision>
     </link>
     <link name='left_green_plate'>
-      <pose frame=''>0.7845 -1.04767 0.62 4.9e-05 1.5707 4.9e-05</pose>
+      <pose frame=''>0.7845 -1.04767 0.62 5.4e-05 1.5707 5.4e-05</pose>
       <inertial>
         <mass>1.14663</mass>
         <inertia>
@@ -4133,7 +4133,7 @@
       </collision>
     </link>
     <link name='left_grey_plate'>
-      <pose frame=''>0.784505 -1.34467 0.57 4.9e-05 1.5707 4.9e-05</pose>
+      <pose frame=''>0.784505 -1.34467 0.57 5.4e-05 1.5707 5.4e-05</pose>
       <inertial>
         <mass>1.14663</mass>
         <inertia>
@@ -4229,7 +4229,7 @@
       </collision>
     </link>
     <link name='left_motor'>
-      <pose frame=''>0.697508 -0.97167 0.532992 4.9e-05 1.5707 4.9e-05</pose>
+      <pose frame=''>0.697508 -0.97167 0.532992 5.4e-05 1.5707 5.4e-05</pose>
       <inertial>
         <mass>0.796161</mass>
         <inertia>
@@ -4327,7 +4327,7 @@
       </collision>
     </link>
     <link name='left_wheel'>
-      <pose frame=''>0.833012 -1.04017 0.584 4.9e-05 1.5707 4.9e-05</pose>
+      <pose frame=''>0.833012 -1.04017 0.584 5.4e-05 1.5707 5.4e-05</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -4424,8 +4424,107 @@
         </surface>
       </collision>
     </link>
+    <link name='link_0'>
+      <pose frame=''>0.5815 -1.04767 0.61998 1.5707 9.6e-05 1.5708</pose>
+      <inertial>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.145833</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.145833</iyy>
+          <iyz>0</iyz>
+          <izz>0.125</izz>
+        </inertia>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+      </inertial>
+      <gravity>1</gravity>
+      <self_collide>0</self_collide>
+      <kinematic>0</kinematic>
+      <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0145</radius>
+            <length>0.406</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+          <shader type='vertex'>
+            <normal_map>__default__</normal_map>
+          </shader>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0145</radius>
+            <length>0.406</length>
+          </cylinder>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <fdir1>0 0 0</fdir1>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+            <torsional>
+              <coefficient>1</coefficient>
+              <patch_radius>0</patch_radius>
+              <surface_radius>0</surface_radius>
+              <use_patch_radius>1</use_patch_radius>
+              <ode>
+                <slip>0</slip>
+              </ode>
+            </torsional>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0</restitution_coefficient>
+            <threshold>1e+06</threshold>
+          </bounce>
+          <contact>
+            <collide_without_contact>0</collide_without_contact>
+            <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+            <collide_bitmask>1</collide_bitmask>
+            <ode>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+13</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0</min_depth>
+            </ode>
+            <bullet>
+              <split_impulse>1</split_impulse>
+              <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+13</kp>
+              <kd>1</kd>
+            </bullet>
+          </contact>
+        </surface>
+      </collision>
+    </link>
     <link name='right_caster_wheel'>
-      <pose frame=''>0.332012 -1.49967 0.505001 6.3e-05 1.5707 6.3e-05</pose>
+      <pose frame=''>0.332012 -1.49967 0.505001 6.8e-05 1.5707 6.8e-05</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -4440,7 +4539,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -4524,7 +4622,7 @@
       </collision>
     </link>
     <link name='right_green_plate'>
-      <pose frame=''>0.380524 -1.04767 0.620001 4.9e-05 1.5707 4.9e-05</pose>
+      <pose frame=''>0.380524 -1.04767 0.620001 5.4e-05 1.5707 5.4e-05</pose>
       <inertial>
         <mass>1.14663</mass>
         <inertia>
@@ -4620,7 +4718,7 @@
       </collision>
     </link>
     <link name='right_motor'>
-      <pose frame=''>0.467532 -0.97167 0.533008 4.9e-05 1.5707 4.9e-05</pose>
+      <pose frame=''>0.467532 -0.97167 0.533008 5.4e-05 1.5707 5.4e-05</pose>
       <inertial>
         <mass>0.796161</mass>
         <inertia>
@@ -4718,7 +4816,7 @@
       </collision>
     </link>
     <link name='right_wheel'>
-      <pose frame=''>0.332012 -1.04017 0.584 4.9e-05 1.5707 4.9e-05</pose>
+      <pose frame=''>0.332012 -1.04017 0.584 5.4e-05 1.5707 5.4e-05</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -5699,6 +5797,23 @@
           <friction>0</friction>
         </dynamics>
       </axis>
+      <physics>
+        <ode>
+          <limit>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </limit>
+          <suspension>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </suspension>
+        </ode>
+      </physics>
+    </joint>
+    <joint name='left_green_plate_JOINT_0' type='fixed'>
+      <parent>left_green_plate</parent>
+      <child>link_0</child>
+      <pose frame=''>0 0 0 0 -0 0</pose>
       <physics>
         <ode>
           <limit>
