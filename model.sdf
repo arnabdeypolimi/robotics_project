@@ -5861,6 +5861,21 @@
         </ode>
       </physics>
     </joint>
+    <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">   
+		<alwaysOn>true</alwaysOn>
+		<updateRate>50.0</updateRate>
+		<leftJoint>joint_left_wheel</leftJoint>
+		<rightJoint>joint_right_wheel</rightJoint>
+		<wheelSeparation>1.168</wheelSeparation>
+		<wheelDiameter>0.2</wheelDiameter>
+		<legacyMode>false</legacyMode>
+		<wheelTorque>20</wheelTorque>
+		<wheelAcceleration>0</wheelAcceleration>
+		<commandTopic>/turtle1/cmd_vel</commandTopic>
+		<odometryTopic>odom</odometryTopic>
+		<odometryFrame>odom</odometryFrame>
+		<robotBaseFrame>base_footprint</robotBaseFrame>
+	</plugin>
     <static>0</static>
     <allow_auto_disable>1</allow_auto_disable>
   </model>
