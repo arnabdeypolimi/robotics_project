@@ -1,0 +1,13 @@
+#############################
+[TO USE DIFF DRIVE PLUGIN]
+
+To use the diffdrive plugin you will need to start gazebo as a ros node, write in the terminal the following instructions:
+$ roscore (this starts ros)
+$ rosrun gazebo_ros gzserver (this starts the gazebo server)
+$ rosrun gazebo_ros gzclient (this starts the gazebo gui)
+
+To send the keyboard messages we use an existing node, write in the terminal the following instruction:
+$ rosrun turtlesim turtle_teleop_key
+this open a terminal where you can send command using the arrow keys
+
+#############################
