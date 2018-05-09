@@ -18,9 +18,10 @@ namespace gazebo
 	{
 		this->model = _parent;
 		this->leftJoint = this->model->GetJoint("left_joint");
-      	this->rightJoint = this->model->GetJoint("right_joint");
+      		this->rightJoint = this->model->GetJoint("right_joint");
 		this->updateConnection = event::Events::ConnectWorldUpdateBegin(
 		std::bind(&EncoderPlugin::OnUpdate, this));
+		printf("inside load method\n");
 	}
       	
      
