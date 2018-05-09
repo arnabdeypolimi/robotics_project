@@ -1,13 +1,22 @@
 #############################
-[TO USE DIFF DRIVE PLUGIN]
+[TO USE DIFF DRIVE AND ENCODER PLUGIN]
 
-To use the diffdrive plugin you will need to start gazebo as a ros node, write in the terminal the following instructions:
-$ roscore (this starts ros)
-$ rosrun gazebo_ros gzserver (this starts the gazebo server)
-$ rosrun gazebo_ros gzclient (this starts the gazebo gui)
+To use the diffdrive plugin and the encoder plugin together you will need to start gazebo as a ros node, follow these instructions:
+1 - Open a new terminal:
+	$ roscore (this starts ros)
+	
+2 - Open a new terminal:
+	$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/path-to-plugin/build
+	$ rosrun gazebo_ros gzserver (this starts the gazebo server)
+	
+3 - Open a new terminal
+	$ rosrun gazebo_ros gzclient (this starts the gazebo gui)
+	
+4 - Insert the robotics_project model
 
-To send the keyboard messages we use an existing node, write in the terminal the following instruction:
-$ rosrun turtlesim turtle_teleop_key
+To send the keyboard messages we use an existing node, open a new terminal and write the following instruction:
+	$ rosrun turtlesim turtle_teleop_key
 this open a terminal where you can send command using the arrow keys
 
 #############################
+
