@@ -33,11 +33,11 @@ namespace gazebo
 		common::Time stepTime = currTime - this->prevUpdateTime;
 		
 		// Print angular rotation when enough time has elapsed
-		if (stepTime > 1/20)
+		if (stepTime > updatePeriod)
 		{
-			double rightWheel = this->rightJoint->GetVelocity(0);
-			double leftWheel =this->leftJoint->GetVelocity(0);
-			printf("Speed left:%f and right:%f\n",leftWheel,rightWheel);
+			double rightWheelVel = this->rightJoint->GetVelocity(0);
+			double leftWheelVel = this->leftJoint->GetVelocity(0);
+			printf("Angular speed\tleft:%f\tright:%f\n",leftWheelVel,rightWheelVel);
 			this->prevUpdateTime = currTime;
 		}
 		
@@ -50,6 +50,7 @@ namespace gazebo
 	
 	private: common::Time prevUpdateTime;
 	private: common::Time currTime;
+	private: const double updatePeriod = 1/20; //20Hz is 1/20 seconds
 	
   };
   GZ_REGISTER_MODEL_PLUGIN(EncoderPlugin);

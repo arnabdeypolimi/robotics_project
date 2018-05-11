@@ -6,7 +6,6 @@
 #include <gazebo/physics/Joint.hh> 
 
 
-
 namespace gazebo
 {
 	
@@ -29,13 +28,19 @@ namespace gazebo
 	private: virtual void OnUpdate()
 	{
 		for (int i = 0; i < links.size(); i++){
+			// CoG of a single link
 			math::Vector3 cog = links[i]->GetWorldCoGPose().pos;
+			// mass of the link
 			double mass = links[i]->GetInertial()->GetMass();
 			
+			// calculation of the numerator of the CoG formula for a body composed of various elements
 			numerator += mass*cog;
+			
+			// calculation of the total mass of the body
 			total_mass += mass;
 		}
 		
+		// formula to compute the CoG of a body composed of various elements
 		model_cog = numerator/total_mass; 
 		
 		if (model_cog != previous_model_cog){
