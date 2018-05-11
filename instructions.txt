@@ -1,12 +1,19 @@
 #############################
-[TO USE DIFF DRIVE AND ENCODER PLUGIN]
+[TEAM MEMBERS]
+1 - Riccardo Bertoglio [875635]
+2 - Arnab Dey [893291]
 
-To use the diffdrive plugin and the encoder plugin together you will need to start gazebo as a ros node, follow these instructions:
+#############################
+
+#############################
+[HOW TO RUN THE CODE]
+
+To use the diffdrive plugin you will need to start gazebo as a ros node, follow these instructions:
 1 - Open a new terminal:
 	$ roscore (this starts ros)
 	
 2 - Open a new terminal:
-	$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/path-to-plugin/build
+	$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/path-to-plugin/build (this is needed for the encoder and the CoG plugins)
 	$ rosrun gazebo_ros gzserver (this starts the gazebo server)
 	
 3 - Open a new terminal
@@ -15,8 +22,9 @@ To use the diffdrive plugin and the encoder plugin together you will need to sta
 4 - Insert the robotics_project model
 
 To send the keyboard messages we use an existing node, open a new terminal and write the following instruction:
-	$ rosrun turtlesim turtle_teleop_key
-this open a terminal where you can send command using the arrow keys
+	$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+this opens a terminal where you can send command using the arrow keys
 
+In the consolle you will see the angular velocity of the posterior wheels printed at 20Hz and the CoG printed when it changes (because it is related to the reference frame of the world). We suggest to run these two plugins separately (commenting the code) to have a clear output on the consolle. 
 #############################
 
